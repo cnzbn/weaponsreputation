@@ -1,0 +1,353 @@
+/* MEDIA QUERIES  
+
+Bootstrap 4 breakpoints
+*/
+ 
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ 
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+}
+
+
+
+@charset "utf-8";
+ /* CSS Document */
+
+ /* font */ 
+
+@font-face {
+font-family: 'sequel sans';
+src: url("font/OGJ Type Design-Sequel Sans Roman Head.eot");
+src: url("font/OGJ-Type-Design-Sequel-Sans-Roman-Head.woff") format("woff"),
+url("font/OGJ Type Design-Sequel Sans Roman Head") format("opentype");
+}
+
+
+
+.title {
+font-family: sequel sans, Arial, sans-serif;
+font-size:24px;
+line-height:normal;
+color: black;
+margin-top:5%;
+}
+
+@media (min-width: 576px) {
+  .title  {
+    font-size:36px;
+  }
+}
+
+
+.tcountries {
+font-family: sequel sans, Arial, sans-serif;
+font-size:24px;
+line-height:normal;
+color: black;
+margin-top:5%;
+text-align: center;    
+}
+
+@media (min-width: 576px) {
+  .tcountries  {
+    font-size:36px;
+  }
+}
+
+
+
+
+
+.subtitle {
+font-family: sequel sans, Arial, sans-serif;
+font-size:20px;
+color:black;   
+}
+
+@media (min-width: 576px) {
+  .subtitle  {
+    font-size:26px;
+  }
+}
+
+
+.menu-font {
+font-family: sequel sans, Arial, sans-serif;
+font-size:16px;
+line-height:normal;
+color: black;      
+}
+
+
+.nav-font {
+font-family: sequel sans, Arial, sans-serif;
+color:black;
+text-align:center;
+line-height: 1.1!important;    
+}
+
+
+.nav-font a:link,
+.nav-font a:hover,
+.nav-font a:focus,
+.nav-font a:active,
+.nav-font a:visited {
+color:black;   
+}
+
+
+
+
+
+
+.font {
+font-family: sequel sans, Arial, sans-serif;
+font-size:16px;
+line-height:normal;
+color:black;
+font-weight: 400;
+-webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+
+}
+
+@media (min-width: 768px) {
+  .font  {
+    font-size:18px;
+  }
+}
+
+.font a:link,
+.font a:focus,
+.font a:active,
+.font a:visited {
+text-decoration:none;
+color:darkgrey;    
+}
+
+.font a:hover {
+text-decoration:underline;
+color:darkgrey;    
+}
+
+
+
+
+.table-font {
+font-family: sequel sans, Arial, sans-serif;
+font-size:14px!important;
+line-height: 1.4;    
+font-weight: 400;
+color:black;
+}
+
+.table-font a:link,
+.table-font a:focus,
+.table-font a:hover,
+.table-font a:active,
+.table-font a:visited {
+text-decoration:none;
+color:black;    
+}
+
+@media (min-width: 576px) {
+  .table-font  {
+    font-size:15px!important;
+    line-height: normal!important;  
+  }
+}
+
+
+
+.table-top-font {
+font-family: sequel sans, Arial, sans-serif!important;
+font-size:15px!important;
+font-weight: normal!important;
+color:darkgray;
+}
+
+
+.caption-gray {
+font-family: sequel sans, Arial, sans-serif;
+font-size:14px;
+line-height: 1.4;    
+font-weight: normal;
+color: darkgray;
+text-align: left;
+}
+
+.caption-gray a:link,
+.caption-gray a:focus,
+.caption-gray a:active,
+.caption-gray a:visited {
+text-decoration:none;
+color:darkgray;    
+}
+
+.caption-gray a:hover {
+text-decoration:underline;
+}
+
+.caption-black {
+font-family: sequel sans, Arial, sans-serif;
+font-size:16px;
+font-weight: normal;    
+color: black;
+line-height: 1.3;
+text-align: left;
+margin-top: 3%;    
+}
+
+.caption-black a:link,
+.caption-black a:active,
+.caption-black a:visited {
+text-decoration:none!important;
+color:darkgray!important;    
+}
+
+.caption-black a:hover {
+text-decoration:none!important;
+color:black!important;    
+}
+
+
+
+
+
+
+
+
+
+
+ /* CLASSES */ 
+
+.container-fluid {
+padding-left:0px!important;    
+padding-right:0px!important;    
+}
+
+
+
+
+.section{
+    width: 100%; 
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.section-homepage {
+    width: 100%; 
+    justify-content: left;
+    padding-bottom: 25%; 
+}
+
+.thumbnail {
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+    margin-bottom: 1%;
+    
+}
+
+.thumbnail-img {
+    margin-bottom: 1%!important;
+    border: 1px solid darkgray;
+    filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: darkgray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+
+
+.thumbnail-img:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+
+
+
+ /* navbar */ 
+
+.smart-scroll{
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color:white;
+}
+.scrolled-down{
+	transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+	transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+ /* navbar megamenu */ 
+
+@media all and (min-width: 992px) {
+	.navbar{ padding-top: 0; padding-bottom: 0; }
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%;  }
+	.navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
+}
+
+
+ /* table class style */ 
+
+.table thead th {
+    border: none!important;
+
+}
+
+
+
+
+
+ /* table classes sorting */ 
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+  bottom: .5em;
+}
+
+ /* cursor on main data table */ 
+
+.cursor {
+    cursor:pointer!important;
+}

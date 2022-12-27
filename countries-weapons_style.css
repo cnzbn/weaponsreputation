@@ -1,0 +1,89 @@
+.tcountries {
+font-family: sequel sans, Arial, sans-serif;
+font-size:24px;
+line-height:normal;
+color: black;
+margin-top:5%;   
+text-align: center;    
+}
+
+@media (min-width: 576px) {
+  .tcountries  {
+    font-size:36px;
+  }
+}
+
+
+.font-gray {
+font-family: sequel sans, Arial, sans-serif;
+font-size:16px;
+line-height:normal;
+color:darkgray;
+font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .font-gray  {
+    font-size:18px;
+  }
+}
+
+.intro-investigation {
+font-family: sequel sans, Arial, sans-serif;
+font-size:13px;
+font-weight: normal;    
+color: black;
+line-height: 1.3;
+text-align: center;
+margin-top: 3%;    
+}
+
+@media (min-width: 576px) {
+  .intro-investigation  {
+    font-size:16px;
+  }
+}
+
+
+
+.nopadding {
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+.margin {
+    margin-bottom: 15%;
+}
+
+@media (min-width: 768px) {
+  .margin  {
+    margin-bottom:5%;
+  }
+}
+
+
+
+.table tr td:nth-of-type(1) {width: 15%;}
+.table tr td:nth-of-type(2) {width: 15%;}
+.table tr td:nth-of-type(3) {width: 7.5%;}
+.table tr td:nth-of-type(4) {width: 7.5%;}
+.table tr td:nth-of-type(5) {width: 7.5%;}
+.table tr td:nth-of-type(6) {width: 7.5%;}
+.table tr td:nth-of-type(7) {width: 40%;}
+
+.borderimg {
+    border: 1px solid darkgray;
+}
+
+/* weapons components */
+
+.margin-row-class {
+    margin-left:0.2%!important;
+    margin-right:0.2%!important;
+}
+
+.double-column {
+    padding-left: 0px!important;
+    padding-right: 2%x!important;   
+}
+
