@@ -27,7 +27,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 
 
-@charset "utf-8";
  /* CSS Document */
 
  /* font */ 
@@ -44,6 +43,7 @@ url("font/OGJ Type Design-Sequel Sans Roman Head") format("opentype");
 .title {
 font-family: sequel sans, Arial, sans-serif;
 font-size:24px;
+font-weight: normal;
 line-height:normal;
 color: black;
 margin-top:5%;
@@ -59,6 +59,7 @@ margin-top:5%;
 .tcountries {
 font-family: sequel sans, Arial, sans-serif;
 font-size:24px;
+font-weight: normal;
 line-height:normal;
 color: black;
 margin-top:5%;
@@ -78,6 +79,7 @@ text-align: center;
 .subtitle {
 font-family: sequel sans, Arial, sans-serif;
 font-size:20px;
+font-weight: normal;
 color:black;   
 }
 
@@ -92,7 +94,8 @@ color:black;
 font-family: sequel sans, Arial, sans-serif;
 font-size:16px;
 line-height:normal;
-color: black;      
+color: black;   
+font-weight: normal;
 }
 
 
@@ -100,7 +103,9 @@ color: black;
 font-family: sequel sans, Arial, sans-serif;
 color:black;
 text-align:center;
-line-height: 1.1!important;    
+line-height: 1.1!important; 
+font-weight: normal;
+
 }
 
 
@@ -122,7 +127,7 @@ font-family: sequel sans, Arial, sans-serif;
 font-size:16px;
 line-height:normal;
 color:black;
-font-weight: 400;
+font-weight: normal;
 -webkit-hyphens: manual;
   -ms-hyphens: manual;
   hyphens: manual;
@@ -155,7 +160,7 @@ color:darkgrey;
 font-family: sequel sans, Arial, sans-serif;
 font-size:14px!important;
 line-height: 1.4;    
-font-weight: 400;
+font-weight: normal;
 color:black;
 }
 
